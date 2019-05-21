@@ -6,14 +6,14 @@ source "http://rubygems.org"
 gemspec
 
 # jquery-rails is used by the dummy application
-gem "activeadmin", '1.0.0.pre2'
-gem "coffee-rails"
-gem 'devise', '~> 3.2'
+gem "activeadmin", '1.3.1'
+gem "coffee-rails", '~> 4.2.2'
+gem 'devise', '~> 4.3'
 gem "formtastic"
 gem "haml"
 gem "jquery-rails"
 gem "sass-rails"
-gem "rails", '~> 4.1.0'
+gem "rails", '~> 5.2.3'
 
 gem "sqlite3", "~> 1.3.6", platforms: [:ruby, :mswin, :mingw]
 

@@ -15,7 +15,7 @@ gem "jquery-rails"
 gem "sass-rails"
 gem "rails", '~> 4.2.0'
 
-gem "sqlite3", platforms: [:ruby, :mswin, :mingw]
+gem "sqlite3", "~> 1.3.6", platforms: [:ruby, :mswin, :mingw]
 
 # for JRuby
 gem "jdbc-sqlite3", platforms: :jruby
