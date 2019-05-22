@@ -1,9 +1,6 @@
 language: ruby
 sudo: false
 
-rvm:
-  - 2.3.3
-
 notifications:
   email: false
 
@@ -11,11 +8,16 @@ script:
   - (cd spec/dummy && bundle exec rake db:setup)
   - bundle exec rspec
 
-gemfile:
-  - Gemfile-rails-4.0.x
-  - Gemfile-rails-4.1.x
-  - Gemfile-rails-4.2.x
-  - Gemfile-rails-5.0.x
-  - Gemfile-rails-5.1.x
-  - Gemfile-rails-5.2.x
-  - Gemfile-rails-6.0.x
+matrix:
+  include:
+    - rvm: 2.3.3
+      gemfile:
+        - Gemfile-rails-4.0.x
+        - Gemfile-rails-4.1.x
+        - Gemfile-rails-4.2.x
+    - rvm: 2.5.3
+      gemfile:
+        - Gemfile-rails-5.0.x
+        - Gemfile-rails-5.1.x
+        - Gemfile-rails-5.2.x
+        - Gemfile-rails-6.0.x
