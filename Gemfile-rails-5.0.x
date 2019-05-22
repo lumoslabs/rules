@@ -8,7 +8,7 @@ gemspec
 # jquery-rails is used by the dummy application
 gem "activeadmin", '1.0.0'
 gem "coffee-rails", '~> 4.1.1'
-gem 'devise', '~> 4.0'
+gem 'devise', '~> 4.6.2'
 gem "formtastic"
 gem "haml"
 gem "jquery-rails"
