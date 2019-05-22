@@ -6,7 +6,7 @@ source "http://rubygems.org"
 gemspec
 
 # jquery-rails is used by the dummy application
-gem "activeadmin", '1.0.0.pre2'
+gem "activeadmin", '1.0.0'
 gem "coffee-rails"
 gem 'devise', '~> 3.2'
 gem "formtastic"
