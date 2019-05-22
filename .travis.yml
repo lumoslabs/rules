@@ -26,5 +26,9 @@ matrix:
     - rvm: 2.5.3
       gemfile:
         - Gemfile-rails-4.0.x
+    - rvm: 2.5.3
+      gemfile:
         - Gemfile-rails-4.1.x
+    - rvm: 2.5.3
+      gemfile:
         - Gemfile-rails-4.2.x
