@@ -3,6 +3,7 @@ sudo: false
 
 rvm:
   - 2.3.3
+  - 2.5.3
 
 notifications:
   email: false
@@ -15,3 +16,16 @@ gemfile:
   - Gemfile-rails-4.0.x
   - Gemfile-rails-4.1.x
   - Gemfile-rails-4.2.x
+  - Gemfile-rails-5.0.x
+  - Gemfile-rails-5.1.x
+  - Gemfile-rails-5.2.x
+  - Gemfile-rails-6.0.x
+
+matrix:
+  exclude:
+    - rvm: 2.5.3
+      gemfile: Gemfile-rails-4.0.x
+    - rvm: 2.5.3
+      gemfile: Gemfile-rails-4.1.x
+    - rvm: 2.5.3
+      gemfile: Gemfile-rails-4.2.x

@@ -6,9 +6,10 @@ source "http://rubygems.org"
 gemspec
 
 # jquery-rails is used by the dummy application
-gem "activeadmin", '1.0.0.pre2'
-gem 'devise', '~> 3.2'
-gem "rails", '~> 4.0.13'
+gem "activeadmin", '1.1.0'
+gem "coffee-rails", '~> 4.2.2'
+gem 'devise', '~> 4.6.2'
+gem "rails", '~> 5.1.7'
 
 gem "sqlite3", "~> 1.3.6", platforms: [:ruby, :mswin, :mingw]
 
