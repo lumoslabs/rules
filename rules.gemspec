@@ -17,9 +17,18 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency 'activeresource'
-  s.add_dependency "rails"
+  s.add_dependency 'rails'
 
-  s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'rspec-collection_matchers'
+  s.add_development_dependency 'activeadmin'
+  s.add_development_dependency 'coffee-rails'
+  s.add_development_dependency 'devise'
+  s.add_development_dependency 'formtastic'
+  s.add_development_dependency 'haml'
+  s.add_development_dependency 'jquery-rails'
+  s.add_development_dependency 'sass-rails'
+  s.add_development_dependency 'rails'
+  s.add_development_dependency 'jdbc-sqlite3'
 end
